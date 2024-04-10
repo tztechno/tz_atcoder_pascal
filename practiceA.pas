@@ -13,16 +13,14 @@ test
 ##################################
 ##################################
 var
-	a, b, c: Integer;
+    a, b, c: Integer;
     s: String[100];
-
 begin
-	readln(a);
+    readln(a);
     read(b);
     readln(c);
     readln(s);
     writeln(a + b + c, ' ' , s);
-    
 end.
 ##################################
 program a(intput, output);
@@ -49,7 +47,6 @@ begin
   read(b);
   readln(c);
   readln(s);
-  
   writeln(a+b+c, ' ', s);
 end.
 ##################################
