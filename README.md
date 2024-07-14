@@ -26,7 +26,10 @@
 ```
 ---
 ```
-
+  while d<>25 do begin
+    write(' Eve');
+    inc(d)
+  end
 ```
 ---
 ```
