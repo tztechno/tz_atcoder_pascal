@@ -22,7 +22,20 @@
 ```
 ---
 ```
-
+program main;
+var
+  s: ansistring;
+  i: integer;
+  mapp: array['A'..'T'] of char;
+begin
+  mapp['A'] := 'T';
+  mapp['C'] := 'G';
+  mapp['G'] := 'C';
+  mapp['T'] := 'A';
+  readln(s);
+  write(mapp[s[1]]);
+  writeln;
+end.
 ```
 ---
 ```
